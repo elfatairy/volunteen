@@ -1,0 +1,138 @@
+{
+  "account_screen": {
+    "account_type": "نوع حسابي",
+    "account_type_user": "حساب مستخدم",
+    "account_type_volunteer": "حساب متطوع",
+    "announcements": "التصريحات المهمة",
+    "app_bar_title": "الحساب",
+    "change_language": "تغيير اللغة",
+    "chosen_language": "اللغة العربية",
+    "contact_us": "تواصل معنا",
+    "emergency": "حالة طوارئ",
+    "feedback": "شارك رأيك عن التطبيق معنا",
+    "logout": "تسجيل الخروج",
+    "my_donations": "إعلانات تبرعاتي",
+    "saved_donations": "الإعلانات المحفوظة",
+    "share_app": "شارك التطبيق مع الآخرين",
+    "supportes": "داعمين البرنامج"
+  },
+  "authentication": {
+    "confirm_password": "تأكيد كلمة المرور",
+    "email": "الإيميل",
+    "login": "تسجيل الدخول",
+    "name": "الاسم",
+    "password": "كلمة المرور",
+    "register": "تسجيل",
+    "signup": "إنشاء حساب",
+    "user": "مستخدم (طالب خدمة)",
+    "volunteer": "متطوع",
+    "whatsapp_number": "رقم الواتس",
+    "whatsapp_screen_message": "برجاء إدخال رقم الواتس أب وسيتم التواصل معك لاحقا"
+  },
+  "buttons": {
+    "close": "إغلاق",
+    "send": "إرسال"
+  },
+  "contacts_us_screen": {
+    "we_are_here": "نحن هنا لمساعدتك. لا تتردد في التواصل معنا بخصوص أي استفسارات أو اقتراحات."
+  },
+  "countries": {
+    "egypt": "مصر"
+  },
+  "donations_screen": {
+    "title": "قائمة التبرعات"
+  },
+  "feedback_screen": {
+    "app_bar_title": "تقييم التطبيق",
+    "give_your_opinion": "أعطنا رأيك",
+    "rate_your_experience": "قيم تجربتك",
+    "write_here": "قم بكتابة رأيك هنا"
+  },
+  "help_requests": {
+    "child_care": "العناية بالأطفال",
+    "delivery_services": "التوصيل والخدمات",
+    "elderly_care": "العناية بكبار السن",
+    "other_category": "أخرى",
+    "pet_care": "العناية بالحيوانات الأليفة"
+  },
+  "helping_hands": {
+    "education": "التعليم",
+    "family": "الأسرة",
+    "medical": "الصحة",
+    "mental_health": "الصحة النفسية"
+  },
+  "home": {
+    "donate_with_us": "تبرع معنا",
+    "donations": "تبرعات المستخدمين",
+    "get_helping_hand": "احصل على يد المساعدة",
+    "join_helping_hands": "سجل لتكون من أيادي المساعدة",
+    "request_service": "اطلب خدمة في",
+    "search": "البحث",
+    "submit_your_donation": "تبرع معنا"
+  },
+  "my_services_screen": {
+    "categories": "تصنيف الخدمات",
+    "services_list_title": "قائمة الطلبات"
+  },
+  "nav_bar": {
+    "account": "الحساب",
+    "donations": "التبرعات",
+    "home": "الرئيسية",
+    "my_requests": "طلباتي",
+    "volunteering": "تطوعاتي"
+  },
+  "new_helping_hand_screen": {
+    "app_bar_title": "تسجيل يد مساعدة جديدة",
+    "category": "الفئة",
+    "choose_category": "اختر الفئة",
+    "job": "الوظيفة / الخبرة",
+    "phone_number": "رقم الهاتف للتواصل",
+    "please_choose_category": "الرجاء اختيار فئة",
+    "whats_app_number": "رقم الواتس اب"
+  },
+  "service_detailed": {
+    "day": "اليوم",
+    "delete_this_request": "حذف هذا الطلب",
+    "hour": "الساعة",
+    "location": "المكان",
+    "phone_number": "رقم الهاتف",
+    "service_type": "نوع الخدمة",
+    "volunteering_user": "المتطوع للمساعدة",
+    "whatsapp_number": "رقم واتس أب"
+  },
+  "social_media": {
+    "facebook": "فيسبوك",
+    "whatsApp": "واتس أب"
+  },
+  "submit_donation_screen": {
+    "choose_pic": "قم باختيار صورة",
+    "description": "وصف المنتج",
+    "location": "الموقع",
+    "phone_number": "رقم الهاتف للتواصل",
+    "product": "عنوان المنتج / الشيء المتبرع به",
+    "title": "تسجيل تبرع جديد",
+    "whatsapp_number": "رقم الواتس أب"
+  },
+  "submit_help_request_screen": {
+    "day": "اليوم",
+    "description": "وصف الخدمة",
+    "hour": "الساعة",
+    "location": "الموقع",
+    "location_in_details": "الموقع بالتفصيل",
+    "phone_number": "رقم الهاتف للتواصل",
+    "title": "عنوان الخدمة",
+    "whatsapp_number": "رقم الواتس أب"
+  },
+  "validations": {
+    "confirm_password": "برجاء تأكيد كلمة المرور",
+    "email": "برجاء إدخال الإيميل",
+    "enter_needed_field": "برجاء إدخال البيانات المطلوبة",
+    "name": "برجاء إدخال الاسم",
+    "password": "برجاء إدخال كلمة المرور",
+    "password_match": "كلمة المرور غير مطابقة",
+    "whatsapp": "برجاء إدخال رقم الواتس"
+  },
+  "volunteering": {
+    "app_bar_title": "فرص التطوع"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "runtime": "nodejs18",
+    "build": {
+      "source": ".",
+      "engine": "nodejs"
+    },
+    "options": {
+      "gen": "2"
+    }
+  }
+}

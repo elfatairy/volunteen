@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "561606423187",
+    "project_id": "volunteen-2b813",
+    "storage_bucket": "volunteen-2b813.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561606423187:android:c113c21b43818c1a31d366",
+        "android_client_info": {
+          "package_name": "com.ranem.volunteen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9U99dXbCgtgA-b8wadO2ktGOGaQxf5Y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
