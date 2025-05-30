@@ -28,7 +28,9 @@ class CodegenLoader extends AssetLoader{
     "feedback": "شارك رأيك عن التطبيق معنا",
     "logout": "تسجيل الخروج",
     "my_donations": "إعلانات تبرعاتي",
+    "empty_donations": "قائمة تبرعاتك فارغة",
     "saved_donations": "الإعلانات المحفوظة",
+    "empty_saved_donations": "قائمة تبرعات المحفوظة فارغة",
     "share_app": "شارك التطبيق مع الآخرين",
     "supportes": "داعمين البرنامج"
   },
@@ -88,7 +90,8 @@ class CodegenLoader extends AssetLoader{
   },
   "my_services_screen": {
     "categories": "تصنيف الخدمات",
-    "services_list_title": "قائمة الطلبات"
+    "services_list_title": "قائمة الطلبات",
+    "empty_screen": "قائمة الطلبات فارغة"
   },
   "nav_bar": {
     "account": "الحساب",
@@ -166,7 +169,9 @@ static const Map<String,dynamic> en = {
     "feedback": "Feedback",
     "logout": "Logout",
     "my_donations": "My Donations",
+    "empty_donations": "The donation list is empty",
     "saved_donations": "Saved Donations",
+    "empty_saved_donations": "The saved donation list is empty",
     "share_app": "Share the App",
     "supportes": "Supportes"
   },
@@ -226,7 +231,8 @@ static const Map<String,dynamic> en = {
   },
   "my_services_screen": {
     "categories": "Categories",
-    "services_list_title": "Services List"
+    "services_list_title": "Services List",
+    "empty_screen": "Services list is empty"
   },
   "nav_bar": {
     "account": "Account",

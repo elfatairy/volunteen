@@ -12,7 +12,9 @@
     "feedback": "Feedback",
     "logout": "Logout",
     "my_donations": "My Donations",
+    "empty_donations": "The donation list is empty",
     "saved_donations": "Saved Donations",
+    "empty_saved_donations": "The saved donation list is empty",
     "share_app": "Share the App",
     "supportes": "Supportes"
   },
@@ -72,7 +74,8 @@
   },
   "my_services_screen": {
     "categories": "Categories",
-    "services_list_title": "Services List"
+    "services_list_title": "Services List",
+    "empty_screen": "Services list is empty"
   },
   "nav_bar": {
     "account": "Account",

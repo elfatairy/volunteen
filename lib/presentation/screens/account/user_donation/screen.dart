@@ -1,3 +1,4 @@
+
 import 'package:auto_route/auto_route.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -36,6 +37,7 @@ class UserDonationScreen extends StatelessWidget {
             donationRepository: context.read(),
             storageRepository: context.read(),
           );
+
           handler.listenToUserDonations(sessionHandler.currentUser.id);
           return handler;
         },
@@ -48,8 +50,8 @@ class UserDonationScreen extends StatelessWidget {
             return ConditionalBuilder(
               condition: userDonationHandler.userDonations.isEmpty,
               builder: (context) {
-                return const Center(
-                  child: CircularProgressIndicator(),
+                return Center(
+                  child: Text(LocaleKeys.account_screen_empty_donations.tr())
                 );
               },
               fallback: (context) {

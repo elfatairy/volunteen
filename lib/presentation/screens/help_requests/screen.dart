@@ -93,7 +93,9 @@ class HelpRequestsScreen extends StatelessWidget {
                 );
               },
               fallback: (context) {
-                return const Center(child: CircularProgressIndicator());
+                return Center(
+                    child:
+                        Text(LocaleKeys.my_services_screen_empty_screen.tr()));
               },
             );
           },

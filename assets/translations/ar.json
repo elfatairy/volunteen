@@ -12,7 +12,9 @@
     "feedback": "شارك رأيك عن التطبيق معنا",
     "logout": "تسجيل الخروج",
     "my_donations": "إعلانات تبرعاتي",
+    "empty_donations": "قائمة تبرعاتك فارغة",
     "saved_donations": "الإعلانات المحفوظة",
+    "empty_saved_donations": "قائمة تبرعات المحفوظة فارغة",
     "share_app": "شارك التطبيق مع الآخرين",
     "supportes": "داعمين البرنامج"
   },
@@ -72,7 +74,8 @@
   },
   "my_services_screen": {
     "categories": "تصنيف الخدمات",
-    "services_list_title": "قائمة الطلبات"
+    "services_list_title": "قائمة الطلبات",
+    "empty_screen": "قائمة الطلبات فارغة"
   },
   "nav_bar": {
     "account": "الحساب",

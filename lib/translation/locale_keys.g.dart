@@ -13,7 +13,9 @@ abstract class  LocaleKeys {
   static const account_screen_feedback = 'account_screen.feedback';
   static const account_screen_logout = 'account_screen.logout';
   static const account_screen_my_donations = 'account_screen.my_donations';
+  static const account_screen_empty_donations = 'account_screen.empty_donations';
   static const account_screen_saved_donations = 'account_screen.saved_donations';
+  static const account_screen_empty_saved_donations = 'account_screen.empty_saved_donations';
   static const account_screen_share_app = 'account_screen.share_app';
   static const account_screen_supportes = 'account_screen.supportes';
   static const account_screen = 'account_screen';
@@ -64,6 +66,7 @@ abstract class  LocaleKeys {
   static const home = 'home';
   static const my_services_screen_categories = 'my_services_screen.categories';
   static const my_services_screen_services_list_title = 'my_services_screen.services_list_title';
+  static const my_services_screen_empty_screen = 'my_services_screen.empty_screen';
   static const my_services_screen = 'my_services_screen';
   static const nav_bar_account = 'nav_bar.account';
   static const nav_bar_donations = 'nav_bar.donations';

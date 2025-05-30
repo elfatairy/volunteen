@@ -40,7 +40,9 @@ class SavedDonationsScreen extends StatelessWidget {
             final List<Donation> donations = savedDonationsHandler.allDonations;
             final ImageLoaderHandler imageLoaderHandler = context.read();
             if (savedDonationsHandler.allDonations.isEmpty) {
-              return const Center(child: CircularProgressIndicator());
+              return Center(
+                  child: Text(
+                      LocaleKeys.account_screen_empty_saved_donations.tr()));
             }
             return ListView.builder(
               itemCount: savedDonationsHandler.allDonations.length,

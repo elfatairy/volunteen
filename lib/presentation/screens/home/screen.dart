@@ -46,7 +46,6 @@ class HomeScreen extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              const VolunteenMainScreenSearchBar(),
               const SizedBox(
                 height: 10,
               ),
